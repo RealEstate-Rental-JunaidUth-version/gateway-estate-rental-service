@@ -1,7 +1,5 @@
-@Library('jenkins-shared-library') _
-
-standardBackendPipeline(
-    appName: 'gateway-service',
-    registry: 'yassinekamouss',
-     sonarProjectKey: 'gateway-service'
+@Library('my-shared-library') _
+springBootPipeline(
+    appName: 'gateway-service', 
+    dockerUser: 'junaiduthman'
 )
